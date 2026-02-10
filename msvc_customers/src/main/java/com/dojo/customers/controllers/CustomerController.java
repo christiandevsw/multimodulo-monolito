@@ -14,7 +14,7 @@ import com.dojo.customers.entities.Customer;
 import com.dojo.customers.services.CustomerService;
 
 @RestController
-@RequestMapping("customer")
+@RequestMapping("/customer")
 public class CustomerController {
 	private Logger logger = LoggerFactory.getLogger(CustomerController.class);
 	private CustomerService service;
